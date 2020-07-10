@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Electrolize&display=swap");
+//font-family: 'Electrolize', sans-serif;
+
+$grey: #f0eeee;
+$blue: #0084ff;
+$text-grey: #6e6e6e;
+$text-white: #f5f5f5;
+$grey-blog: #757575;
+
+html {
+  scroll-behavior: smooth;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: white;
+  -webkit-font-smoothing: antialiased;
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  a,
+  span,
+  p,
+  div,
+  .icon {
+    background: none;
+  }
+}
+
+
+.App {
+  min-width: 320px;
+}
+
+@import "../Header/HeaderBar.scss";
+@import "../Footer/Footer.scss";
+@import "../Page/HomePage/HomePage.scss";
+@import "../Page/BlogDetail/BlogDetail.scss";
